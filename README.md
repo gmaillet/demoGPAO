@@ -24,7 +24,7 @@ Deux scripts d'exemples pour cette API:
 
 ```bash
 cd api
-nom install
+npm install
 ```
 
 
