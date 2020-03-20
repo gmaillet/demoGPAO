@@ -3,7 +3,8 @@ const bodyParser = require('body-parser')
 const app = express()
 const port = 3000
 
-const db = require('./queries')
+// const db = require('./queries')
+const db = require('./queries-sqlite')
 
 app.use(bodyParser.json())
 app.use(
